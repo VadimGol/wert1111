@@ -1,3 +1,3 @@
 #!/bin/bash
-arp -i enp0s3
+arp -i eth0
 sleep 60
