@@ -1,0 +1,17 @@
+[Unit]
+  Description=arp checking
+  After=network.target
+ 
+[Service]
+  Type=simple
+  ExecStart=/bin/bash -u /opt/daemon.sh
+  Type=idle
+  KillMode=process
+ 
+  SyslogIdentifier=smart-test
+  SyslogFacility=daemon
+ 
+  Restart=always
+ 
+[Install]
+  WantedBy=multiuser.target
