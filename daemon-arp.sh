@@ -1,2 +1,2 @@
-ip neigh show dev enp0s3
+ip neigh show dev eth0
 sleep 60
