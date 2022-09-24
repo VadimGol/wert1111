@@ -1,7 +1,7 @@
 #!/bin/bash
 touch daemon-arp.sh
 chmod 755 daemon-arp.sh
-echo "ip neigh show dev enp0s3
+echo "ip neigh show dev eth0
 sleep 60" > daemon-arp.sh
 echo "[Unit]
   Description=arp checking
