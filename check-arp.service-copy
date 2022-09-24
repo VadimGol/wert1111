@@ -8,7 +8,7 @@
   Type=idle
   KillMode=process
  
-  SyslogIdentifier=smart-test
+  SyslogIdentifier=arp-check
   SyslogFacility=daemon
  
   Restart=always
